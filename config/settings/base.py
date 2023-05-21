@@ -101,6 +101,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+# fix warning : Configure the DEFAULT_AUTO_FIELD setting or the PyboConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
