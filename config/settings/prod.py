@@ -6,10 +6,13 @@ ALLOWED_HOSTS = [
     '13.124.235.245',
     'hobbycoding.site',
     '127.0.0.1',
+    '3.39.38.168',
 ]
 
-STATIC_ROOT = BASE_DIR / 'static/'
-STATICFILES_DIRS = []
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]
 DEBUG = False
 
 env = environ.Env()
