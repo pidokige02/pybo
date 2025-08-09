@@ -7,6 +7,7 @@ ALLOWED_HOSTS = [
     'hobbycoding.site',
     '127.0.0.1',
     '3.39.38.168',
+    'www.hobbycoding.shop',
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
